@@ -2,6 +2,10 @@
 
 תבנית פתיחה לקורס פיתוח אפליקציות ומשחקים בשיתוף AI לכיתה ח׳ מחוננים.
 
+## Scrap Ring
+
+You start with one robot, Rivet. Deploy Rivet into the ring to fight another robot. Win to earn money and unlock the next level. Before each fight, spend that money on hull, punch, armor, or speed.
+
 ## איך מתחילים לעבוד
 
 1. פותחים את ה־Codespace של הפרויקט.

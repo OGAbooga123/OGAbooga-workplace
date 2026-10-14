@@ -1,42 +1,50 @@
-# תכנון הפרויקט שלי
+# Scrap Ring
 
-> הקובץ הזה הוא הזיכרון של הפרויקט. מעדכנים אותו לאורך השנה כשהרעיון משתנה או כשנוספות מערכות חדשות.
+## Name
 
-## שם הפרויקט
+Scrap Ring
 
-כתבו כאן שם זמני. מותר לשנות אותו בהמשך.
+## One sentence
 
-## הרעיון במשפט אחד
+Deploy your starter robot, Rivet, into the ring, beat the other robot, and spend the money on upgrades before the next level.
 
-מה המשחק או האפליקציה שלי?
+## What the player does over and over
 
-## מה המשתמש עושה שוב ושוב?
+Check the next opponent, buy upgrades with money from wins, then deploy Rivet into the ring.
 
-מהי הפעולה המרכזית במשחק?
+## Why come back
 
-## למה שירצו לחזור לפרויקט מחר?
+There are six fights. Each win unlocks a harder robot and pays money. Rivet starts as one plain frame and visibly grows as you bolt on parts.
 
-מה מתקדם, נפתח, נאסף או משתפר לאורך זמן?
+## First version
 
-## המטרה לגרסה הראשונה
+- One robot, Rivet, with health, attack, armor, and speed.
+- Deploy into the ring and watch the fight.
+- Win to earn money and unlock the next level. Lose and you stay on that level.
+- Before each fight, spend money on hull, punch, armor, or speed. Sell a part back if you want the money.
 
-מה הדבר הקטן ביותר שאפשר לבנות עכשיו ולבדוק שהוא עובד?
+## Later ideas
 
-## מערכות שאני רוצה בעתיד
+- A second robot to choose from
+- Special moves during the fight
+- A tournament bracket after the pit
 
-- 
-- 
-- 
+## Already working
 
-## דברים שכבר עובדים
+- Garage, six-level ladder, and champion rematch.
+- Turn-by-turn fights with dodge, damage, and a skip button.
+- Upgrades paid for with money from finished levels.
+- Progress saved in the browser.
 
-- הפרויקט נפתח ורץ.
-- יש פעולה אינטראקטיבית ראשונה.
+## Next build
 
-## הדבר הבא שאני רוצה לבנות
+One special move Rivet can fire once per fight.
 
-כתבו כאן שינוי אחד בלבד.
+## Decisions
 
-## החלטות חשובות שקיבלתי
-
-הוסיפו כאן החלטות שחשוב לזכור בהמשך. לדוגמה: סוג המשחק, דרך ההתקדמות, שמות של משאבים או כללים שה־AI צריך להכיר.
+- Only one robot. Upgrades change that robot. They do not add a roster.
+- Levels are linear. You fight the current opponent, then the next.
+- Money comes from winning. A loss pays nothing.
+- Rivet is fully repaired at the start of every fight.
+- A hit is attack minus armor, at least 1. Faster robots strike first and can dodge slower ones.
+- Selling an upgrade refunds what that rank cost, so a bad build is not a trap.
